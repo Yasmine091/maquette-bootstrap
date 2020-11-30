@@ -3,3 +3,4 @@ public/dist
 .idea
 .DS_Store
 dist
+.cache
