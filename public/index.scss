@@ -1,0 +1,92 @@
+@import "~bootstrap/scss/bootstrap";
+@media only screen and (max-width: 995px) {
+    .web-img {
+        max-height: 16rem !important;
+        max-width: 21rem !important;
+    }
+}
+
+$primary: rgb(46, 129, 184) !important;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.navigation,
+.navigation a {
+    font-size: 0.9rem !important;
+}
+
+.header-img {
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bureau-notes.jpg');
+    background-position: center;
+    background-size: cover;
+    h1,
+    p {
+        text-shadow: 2px 2px 4px #000;
+    }
+    hr {
+        width: 25rem !important;
+        box-shadow: 2px 2px 4px #000;
+    }
+}
+
+a.btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.5rem !important;
+    margin: 0.2rem;
+}
+
+section {
+    min-height: 25rem;
+    hr {
+        border: 0.15em solid #00000010;
+        border-radius: 2.5rem;
+        width: 40% !important;
+        margin: 0px;
+    }
+    a {
+        color: $primary;
+    }
+}
+
+section:nth-of-type(2n+1) {
+    background-color: $light;
+}
+
+.web-img {
+    height: auto;
+    max-height: 27rem;
+    width: auto;
+    max-width: 30rem;
+    object-fit: contain;
+}
+
+.footer-img {
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bureau-cafe.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4 ul {
+    font-size: 0.8rem !important;
+    font-weight: bolder;
+}
+
+.display-4 li {
+    list-style: none;
+    font-size: 0.8rem !important;
+    font-weight: bolder;
+    display: inline;
+    a {
+        color: $primary;
+    }
+}
+
+.copy {
+    font-size: 0.7rem !important;
+    font-weight: bolder !important;
+    color: $secondary;
+}
