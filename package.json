@@ -1,38 +1,30 @@
 {
-  "name": "gulp-starter-kit",
-  "version": "1.0.0",
-  "description": "A Gulp 4 Starter Kit.",
-  "scripts": {
-    "dev": "gulp",
-    "build": "gulp build"
-  },
-  "author": "Simplon Occitanie",
-  "devDependencies": {
-    "browser-sync": "^2.26.10",
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-babel": "^8.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
-  },
-  "browserslist": [
-    "last 3 versions",
-    "> 0.5%"
-  ],
-  "engines": {
-    "node": ">=10"
-  },
-  "dependencies": {
-    "@babel/core": "^7.12.7",
-    "@babel/preset-env": "^7.12.7",
-    "bootstrap": "^4.5.3"
-  }
+    "name": "maquette-bootstrap",
+    "version": "1.0.0",
+    "description": "## Requirements This should be installed on your computer in order to get up and running:",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel public/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/Yasmine091/maquette-bootstrap.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/Yasmine091/maquette-bootstrap/issues"
+    },
+    "homepage": "https://gitlab.com/Yasmine091/maquette-bootstrap#readme",
+    "dependencies": {
+        "bootstrap": "^4.5.3",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.29.0"
+    }
 }
