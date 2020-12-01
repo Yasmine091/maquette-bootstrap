@@ -1,0 +1,106 @@
+@import "~bootstrap/scss/bootstrap";
+@media only screen and (max-width: 995px) {
+    .web-img {
+        max-height: 16rem !important;
+        max-width: 21rem !important;
+    }
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+header h1.display-4 {
+    font-size: 4.5rem;
+    font-weight: normal;
+}
+
+header p.lead {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.navigation,
+.navigation a {
+    font-size: 0.9rem !important;
+}
+
+.header-img {
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bureau-notes.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.header-img h1,
+.header-img p {
+    text-shadow: 2px 2px 4px #000;
+}
+
+.header-img hr {
+    width: 25rem !important;
+    box-shadow: 2px 2px 4px #000;
+}
+
+a.btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.5rem !important;
+    margin: 0.2rem;
+}
+
+section {
+    min-height: 25rem;
+}
+
+section hr {
+    border: 0.15em solid #000 10;
+    border-radius: 2.5rem;
+    width: 40% !important;
+    margin: 0px;
+}
+
+section a {
+    color: #2e81b8 !important;
+}
+
+section:nth-of-type(2n+1) {
+    background-color: #f8f9fa !important;
+}
+
+.web-img {
+    height: auto;
+    max-height: 27rem;
+    width: auto;
+    max-width: 30rem;
+    object-fit: contain;
+}
+
+.footer-img {
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bureau-cafe.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4 ul {
+    font-size: 0.8rem !important;
+    font-weight: bolder;
+}
+
+.display-4 li {
+    list-style: none;
+    font-size: 0.8rem !important;
+    font-weight: bolder;
+    display: inline;
+}
+
+.display-4 li a {
+    color: #2e81b8 !important;
+}
+
+.copy {
+    font-size: 0.7rem !important;
+    font-weight: bolder !important;
+    color: #6c757d !important;
+}
