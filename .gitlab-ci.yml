@@ -3,11 +3,11 @@
 pages:
   stage: deploy
   script:
-    - mkdir .dist
-    - cp -r * .dist
-    - mv .dist public
+    - mkdir .public
+    - cp -r * .public
+    - mv .public dist
   artifacts:
     paths:
-      - public
+      - dist
   only:
     - master
