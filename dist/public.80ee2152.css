@@ -9911,8 +9911,8 @@ header h1.display-4 {
   font-weight: normal;
 }
 header p.lead {
-  font-weight: normal;
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .navigation,
