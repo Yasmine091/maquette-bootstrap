@@ -5,9 +5,9 @@ pages:
   script:
     - mkdir .public
     - cp -r * .public
-    - mv .public dist
+    - mv .public public
   artifacts:
     paths:
-      - dist
+      - public
   only:
     - master
